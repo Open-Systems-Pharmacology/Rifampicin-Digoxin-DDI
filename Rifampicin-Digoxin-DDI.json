@@ -3824,81 +3824,6 @@
           "Scaling": "Log",
           "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
           "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
         }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
@@ -4271,21 +4196,6 @@
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Larsen2007_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Larsen 2007 - with Perpetrator (Rifampicin) - Digoxin - PO - 0.5 mg - Serum - typical (n=10)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Larsen2007_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Larsen 2007 - with Perpetrator (Rifampicin) - Digoxin - PO - 0.5 mg - Serum - typical (n=10)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Larsen2007_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Larsen 2007 - with Perpetrator (Rifampicin) - Digoxin - PO - 0.5 mg - Serum - typical (n=10)"
-        },
         {
           "Scaling": "Log",
           "Path": "Larsen2007_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
@@ -5043,7 +4953,7 @@
       "Name": "Gurley2008b_Control",
       "Model": "4Comp",
       "ObservedData": [
-        "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
+        "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5127,12 +5037,7 @@
         {
           "Scaling": "Log",
           "Path": "Gurley2008b_Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Gurley2008b_Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
+          "ObservedData": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
         }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
@@ -5241,9 +5146,9 @@
               }
             },
             {
-              "Name": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|Time",
-              "Y": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
+              "Name": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|Time",
+              "Y": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 3,
@@ -6219,11 +6124,6 @@
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv Control (Perpetrator Placebo) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
         {
           "Scaling": "Log",
           "Path": "Greiner1999_Digoxin-IV_Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
@@ -8290,41 +8190,6 @@
           "Scaling": "Log",
           "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
           "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
         }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
@@ -8735,41 +8600,6 @@
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        },
         {
           "Scaling": "Log",
           "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
@@ -10965,7 +10795,7 @@
       }
     },
     {
-      "Name": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+      "Name": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -11047,7 +10877,7 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+                "Path": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -11071,7 +10901,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+            "Path": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -11098,7 +10928,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|Time",
+          "Path": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|Time",
           "Type": "Time"
         },
         "DataInfo": {
