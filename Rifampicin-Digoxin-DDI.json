@@ -2523,7 +2523,7 @@
               "Parameters": [
                 {
                   "Name": "Start time",
-                  "Value": 8.0,
+                  "Value": 0.0,
                   "Unit": "h"
                 },
                 {
@@ -2572,7 +2572,7 @@
               "Parameters": [
                 {
                   "Name": "Start time",
-                  "Value": 8.0,
+                  "Value": 0.0,
                   "Unit": "h"
                 },
                 {
@@ -3541,7 +3541,7 @@
               "Parameters": [
                 {
                   "Name": "Start time",
-                  "Value": 8.0,
+                  "Value": 0.0,
                   "Unit": "h"
                 },
                 {
@@ -7981,7 +7981,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Rifampicin-Digoxin-DDI\nWiebe2020_Treatment\n2023-03-23 15:47"
+          "OriginText": "Rifampicin-Digoxin-DDI\nWiebe2020_Treatment\n2024-12-04 17:58"
         }
       ],
       "Interactions": [
@@ -8013,840 +8013,6 @@
         {
           "Name": "OATP1B1-Dixit 2007",
           "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        }
-      ]
-    },
-    {
-      "Name": "Greiner1999_Digoxin-IV_Treatment",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 536.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 248.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 536.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Greiner1999_Treatment_Digoxin_1mg_IV|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
-        }
-      ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
-      "Compounds": [
-        {
-          "Name": "Digoxin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Fitted",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Stephens (2001)",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "MoleculeName": "P-gp"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
-            },
-            {
-              "Name": "ATP1A2-Katz (2010)",
-              "MoleculeName": "ATP1A2"
-            },
-            {
-              "MoleculeName": "GABRG2"
-            }
-          ],
-          "Protocol": {
-            "Name": "Greiner1999_Treatment_Digoxin_1mg_IV"
-          }
-        },
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Greiner1999_Treatment_Rifampicin_600mg_PO",
-            "Formulations": [
-              {
-                "Name": "Oral solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 225.5299,
-              "Max": 279.7912,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0003268924,
-              "Max": 11.46183,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Digoxin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Digoxin-DDI\nGreiner1999_Digoxin-IV_Treatment\n2023-03-30 09:04"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Hanke 2021",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        }
-      ]
-    },
-    {
-      "Name": "Greiner1999_Digoxin-PO_Treatment",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 248.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 248.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 536.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Greiner1999_Treatment_Digoxin_1mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
-        }
-      ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
-      "Compounds": [
-        {
-          "Name": "Digoxin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Fitted",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Stephens (2001)",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "MoleculeName": "P-gp"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
-            },
-            {
-              "Name": "ATP1A2-Katz (2010)",
-              "MoleculeName": "ATP1A2"
-            },
-            {
-              "MoleculeName": "GABRG2"
-            }
-          ],
-          "Protocol": {
-            "Name": "Greiner1999_Treatment_Digoxin_1mg_PO",
-            "Formulations": [
-              {
-                "Name": "Oral solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Greiner1999_Treatment_Rifampicin_600mg_PO",
-            "Formulations": [
-              {
-                "Name": "Oral solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 234.8228,
-              "Max": 317.691,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001140183,
-              "Max": 9.986885,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Digoxin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Digoxin-DDI\nGreiner1999_Digoxin-PO_Treatment\n2023-03-30 10:11"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Hanke 2021",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
           "CompoundName": "Rifampicin"
         }
       ]
@@ -9956,7 +9122,7 @@
             },
             {
               "Name": "End time",
-              "Value": 236.0,
+              "Value": 228.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -9976,7 +9142,35 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 236.0,
+              "Value": 228.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 232.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 232.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -9992,11 +9186,8 @@
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 4.0,
+              "Unit": "pts/h"
             }
           ]
         }
@@ -10120,16 +9311,16 @@
               "MoleculeName": "AADAC"
             },
             {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
               "MoleculeName": "AADAC"
             },
             {
               "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
             },
             {
               "MoleculeName": "UGT1A4"
@@ -10145,14 +9336,14 @@
               "MoleculeName": "OATP1B1"
             },
             {
+              "MoleculeName": "OATP1B1"
+            },
+            {
               "Name": "P-gp-Stephens (2001)",
               "MoleculeName": "P-gp"
             },
             {
               "MoleculeName": "P-gp"
-            },
-            {
-              "MoleculeName": "OATP1B1"
             },
             {
               "MoleculeName": "P-gp"
@@ -10162,11 +9353,26 @@
               "SystemicProcessType": "GFR"
             },
             {
+              "MoleculeName": "AADAC"
+            },
+            {
               "Name": "ATP1A2-Katz (2010)",
               "MoleculeName": "ATP1A2"
             },
             {
+              "MoleculeName": "CYP3A4"
+            },
+            {
               "MoleculeName": "GABRG2"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "UGT1A4"
             }
           ],
           "Protocol": {
@@ -10285,7 +9491,896 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Rifampicin-Digoxin-DDI\nDrescher2003_Digoxin-IV_Treatment\n2023-03-30 13:49"
+          "OriginText": "Rifampicin-Digoxin-DDI\nDrescher2003_Digoxin-IV_Treatment\n2024-12-04 14:04"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Greiner1999_Digoxin-IV_Treatment",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 536.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 240.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 244.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 244.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 536.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Greiner1999_Treatment_Digoxin_1mg_IV|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
+        }
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Fitted",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Stephens (2001)",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "GABRG2"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Greiner1999_Treatment_Digoxin_1mg_IV"
+          }
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Greiner1999_Treatment_Rifampicin_600mg_PO",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 235.090576,
+              "Max": 254.325851,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 2.923654E-05,
+              "Max": 18.80462,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Greiner1999_Digoxin-IV_Treatment|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Digoxin-DDI\nGreiner1999_Digoxin-IV_Treatment\n2024-12-04 14:37"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Greiner1999_Digoxin-PO_Treatment",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 248.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 248.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 536.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Greiner1999_Treatment_Digoxin_1mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Greiner1999_Treatment_Rifampicin_600mg_PO|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
+        }
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Fitted",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Stephens (2001)",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "GABRG2"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Greiner1999_Treatment_Digoxin_1mg_PO",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Greiner1999_Treatment_Rifampicin_600mg_PO",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 229.76181,
+              "Max": 263.4163,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 5.561013E-05,
+              "Max": 22.0875359,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Greiner1999_Digoxin-PO_Treatment|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Digoxin-DDI\nGreiner1999_Digoxin-PO_Treatment\n2024-12-04 14:28"
         }
       ],
       "Interactions": [
@@ -10328,75 +10423,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16326.0
+          "Value": 16326.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2007"
+          "Value": "Gurley 2007",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/17079360/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/17079360/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig 1b"
+          "Value": "Fig 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Digoxin + Rifampicin"
+          "Value": "Digoxin + Rifampicin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 20.0
+          "Value": 20.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 146.0
+          "Value": 146.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10485,75 +10598,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16325.0
+          "Value": 16325.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2007"
+          "Value": "Gurley 2007",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/17079360/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/17079360/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig 1b"
+          "Value": "Fig 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "control"
+          "Value": "control",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 20.0
+          "Value": 20.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10642,75 +10773,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 227.0
+          "Value": 227.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2008b"
+          "Value": "Gurley 2008b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18214850"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18214850",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "with Perpetrator (Rifampicin)"
+          "Value": "with Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 18.0
+          "Value": 18.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 146.0
+          "Value": 146.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "0.25 mg, Lanoxin®, GlaxoSmithKline"
+          "Value": "0.25 mg, Lanoxin®, GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10799,75 +10948,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 226.0
+          "Value": 226.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2008b"
+          "Value": "Gurley 2008b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18214850"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18214850",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Control (Perpetrator Placebo)"
+          "Value": "Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 18.0
+          "Value": 18.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "0.25 mg, Lanoxin®, GlaxoSmithKline"
+          "Value": "0.25 mg, Lanoxin®, GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10956,75 +11123,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 396.0
+          "Value": 396.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Reitman 2011"
+          "Value": "Reitman 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1c"
+          "Value": "Fig. 1c",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Week 0 after Perpetrator (Rifampicin)"
+          "Value": "Week 0 after Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 649.0
+          "Value": 649.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Tablet (2x 0.25 mg)"
+          "Value": "Tablet (2x 0.25 mg)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -11077,75 +11262,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 397.0
+          "Value": 397.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Reitman 2011"
+          "Value": "Reitman 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1c"
+          "Value": "Fig. 1c",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Week 1 after Perpetrator (Rifampicin)"
+          "Value": "Week 1 after Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 817.0
+          "Value": 817.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Tablet (2x 0.25 mg)"
+          "Value": "Tablet (2x 0.25 mg)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -11198,75 +11401,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 316.0
+          "Value": 316.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kirby 2012"
+          "Value": "Kirby 2012",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Study 2 - Simultaneous Administration with RIF"
+          "Value": "Study 2 - Simultaneous Administration with RIF",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 336.0
+          "Value": 336.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline"
+          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -11363,75 +11584,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 315.0
+          "Value": 315.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kirby 2012"
+          "Value": "Kirby 2012",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Study 2 - Simultaneous Administration Control"
+          "Value": "Study 2 - Simultaneous Administration Control",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline"
+          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -11524,248 +11763,97 @@
       }
     },
     {
-      "Name": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 191.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Greiner 1999"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1a"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "po with Perpetrator (Rifampicin)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 8.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Digoxin"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "1 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 248.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "."
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 780.93
-              },
-              "Values": [
-                "NaN",
-                0.0002435162,
-                0.0007826411,
-                0.000730426866,
-                0.0007652093,
-                0.00083481404,
-                0.000591338438,
-                0.000626080961,
-                0.000521733367,
-                0.000521693146,
-                0.000469560619,
-                0.0004347378,
-                0.0002435162,
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 780.93,
-            "LLOQ": 1E-10
-          },
-          "Values": [
-            5.00000024E-05,
-            0.000399148616,
-            0.001494023,
-            0.001997518,
-            0.002188417,
-            0.00230971118,
-            0.002239743,
-            0.002255884,
-            0.00206333,
-            0.00192295,
-            0.00162484008,
-            0.0014459251,
-            0.0008099182,
-            0.0006086895
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          248.0,
-          248.17,
-          248.33,
-          248.5,
-          248.58,
-          248.67,
-          248.75,
-          249.0,
-          249.25,
-          249.5,
-          250.0,
-          251.0,
-          253.0,
-          255.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Greiner 1999 - po Control (Perpetrator Placebo) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 190.0
+          "Value": 190.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Greiner 1999"
+          "Value": "Greiner 1999",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1a"
+          "Value": "Fig. 1a",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "po Control (Perpetrator Placebo)"
+          "Value": "po Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 8.0
+          "Value": 8.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -11866,75 +11954,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 336.0
+          "Value": 336.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Larsen 2007"
+          "Value": "Larsen 2007",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17365992"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17365992",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Control (Perpetrator Placebo)"
+          "Value": "Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "typical representative"
+          "Value": "typical representative",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Oral soultion"
+          "Value": "Oral soultion",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12016,75 +12122,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 337.0
+          "Value": 337.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Larsen 2007"
+          "Value": "Larsen 2007",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17365992"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17365992",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "with Perpetrator (Rifampicin)"
+          "Value": "with Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "typical representative"
+          "Value": "typical representative",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 144.0
+          "Value": 144.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Oral soultion"
+          "Value": "Oral soultion",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12166,75 +12290,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 398.0
+          "Value": 398.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Reitman 2011"
+          "Value": "Reitman 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1c"
+          "Value": "Fig. 1c",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Week 2 after Perpetrator (Rifampicin)"
+          "Value": "Week 2 after Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 985.0
+          "Value": 985.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Tablet (2x 0.25 mg)"
+          "Value": "Tablet (2x 0.25 mg)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12287,75 +12429,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 399.0
+          "Value": 399.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Reitman 2011"
+          "Value": "Reitman 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21191377",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1c"
+          "Value": "Fig. 1c",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Week 4 after Perpetrator (Rifampicin)"
+          "Value": "Week 4 after Perpetrator (Rifampicin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 1321.0
+          "Value": 1321.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Tablet (2x 0.25 mg)"
+          "Value": "Tablet (2x 0.25 mg)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12408,75 +12568,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16301.0
+          "Value": 16301.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wiebe 2020"
+          "Value": "Wiebe 2020",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Digoxin (Cocktail) + Rifampin"
+          "Value": "Digoxin (Cocktail) + Rifampin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "human"
+          "Value": "human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12545,75 +12723,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16302.0
+          "Value": 16302.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wiebe 2020"
+          "Value": "Wiebe 2020",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Table S1"
+          "Value": "Table S1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Digoxin (Cocktail) + Rifampin"
+          "Value": "Digoxin (Cocktail) + Rifampin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "human"
+          "Value": "human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Kidney"
+          "Value": "Kidney",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Urine"
+          "Value": "Urine",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12655,75 +12851,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16322.0
+          "Value": 16322.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2006"
+          "Value": "Gurley 2006",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/16221754/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/16221754/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig 1b"
+          "Value": "Fig 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "day 7 plasma + Rifampin"
+          "Value": "day 7 plasma + Rifampin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.4 mg"
+          "Value": "0.4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 146.0
+          "Value": 146.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12815,75 +13029,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16321.0
+          "Value": 16321.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Gurley 2006"
+          "Value": "Gurley 2006",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/16221754/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/16221754/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig 1b"
+          "Value": "Fig 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "day 1 plasma"
+          "Value": "day 1 plasma",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.4 mg"
+          "Value": "0.4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -12975,75 +13207,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16304.0
+          "Value": 16304.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wiebe 2020"
+          "Value": "Wiebe 2020",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Table S1"
+          "Value": "Table S1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Digoxin + Placebo"
+          "Value": "Digoxin + Placebo",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "human"
+          "Value": "human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Kidney"
+          "Value": "Kidney",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Urine"
+          "Value": "Urine",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -13085,75 +13335,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 16303.0
+          "Value": 16303.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wiebe 2020"
+          "Value": "Wiebe 2020",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/32504272/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Digoxin + Placebo"
+          "Value": "Digoxin + Placebo",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "human"
+          "Value": "human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.25 mg"
+          "Value": "0.25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -13218,248 +13486,97 @@
       }
     },
     {
-      "Name": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 193.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Greiner 1999"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1b"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "iv with Perpetrator (Rifampicin)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 8.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Digoxin"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "IV"
-        },
-        {
-          "Name": "Dose",
-          "Value": "1 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 248.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "Lanicor, Boehringer Ingelheim"
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 780.93
-              },
-              "Values": [
-                "NaN",
-                0.001415098,
-                0.001768868,
-                0.001768866,
-                0.00127358607,
-                0.00134434493,
-                0.001061323,
-                0.0007783017,
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 780.93,
-            "LLOQ": 1E-10
-          },
-          "Values": [
-            5.00000024E-05,
-            0.0129481088,
-            0.01740566,
-            0.02073113,
-            0.0152830193,
-            0.0125235906,
-            0.0107547194,
-            0.007924528,
-            0.005872642,
-            0.00474056555,
-            0.00332547212,
-            0.00169811293,
-            0.001061321,
-            0.0008490566
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          248.0,
-          248.17,
-          248.33,
-          248.5,
-          248.58,
-          248.67,
-          248.75,
-          249.0,
-          249.25,
-          249.5,
-          250.0,
-          251.0,
-          253.0,
-          255.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Greiner 1999 - iv Control (Perpetrator Placebo) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 192.0
+          "Value": 192.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Greiner 1999"
+          "Value": "Greiner 1999",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1b"
+          "Value": "Fig. 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "iv Control (Perpetrator Placebo)"
+          "Value": "iv Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 8.0
+          "Value": 8.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Lanicor, Boehringer Ingelheim"
+          "Value": "Lanicor, Boehringer Ingelheim",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -13560,75 +13677,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 313.0
+          "Value": 313.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kirby 2012"
+          "Value": "Kirby 2012",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Study 1 - Staggered Administration Control"
+          "Value": "Study 1 - Staggered Administration Control",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline"
+          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -13740,75 +13875,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 314.0
+          "Value": 314.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kirby 2012"
+          "Value": "Kirby 2012",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/22190694",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Study 1 - Staggered Administration with RIF"
+          "Value": "Study 1 - Staggered Administration with RIF",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Digoxin"
+          "Value": "Digoxin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 mg"
+          "Value": "0.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 324.0
+          "Value": 324.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline"
+          "Value": "Lanoxin, 0.25-mg tablets; GlaxoSmithKline",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -13910,6 +14063,380 @@
           354.0,
           358.0,
           371.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE",
+          "Type": "String"
+        },
+        {
+          "Name": "ID",
+          "Value": 191.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Greiner 1999",
+          "Type": "String"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543",
+          "Type": "String"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1a",
+          "Type": "String"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "po with Perpetrator (Rifampicin)",
+          "Type": "String"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated",
+          "Type": "String"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 240.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Formulation",
+          "Value": ".",
+          "Type": "String"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted",
+          "Type": "String"
+        },
+        {
+          "Name": "Comment",
+          "Value": ".",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                "NaN",
+                0.0002435162,
+                0.0007826411,
+                0.000730426866,
+                0.0007652093,
+                0.00083481404,
+                0.000591338438,
+                0.000626080961,
+                0.000521733367,
+                0.000521693146,
+                0.000469560619,
+                0.0004347378,
+                0.0002435162,
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 780.93,
+            "LLOQ": 1E-10
+          },
+          "Values": [
+            5.00000024E-05,
+            0.000399148616,
+            0.001494023,
+            0.001997518,
+            0.002188417,
+            0.00230971118,
+            0.002239743,
+            0.002255884,
+            0.00206333,
+            0.00192295,
+            0.00162484008,
+            0.0014459251,
+            0.0008099182,
+            0.0006086895
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Greiner 1999 - po with Perpetrator (Rifampicin) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          240.0,
+          240.17,
+          240.33,
+          240.5,
+          240.58,
+          240.67,
+          240.75,
+          241.0,
+          241.25,
+          241.5,
+          242.0,
+          243.0,
+          245.0,
+          247.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE",
+          "Type": "String"
+        },
+        {
+          "Name": "ID",
+          "Value": 193.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Greiner 1999",
+          "Type": "String"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10411543",
+          "Type": "String"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1b",
+          "Type": "String"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "iv with Perpetrator (Rifampicin)",
+          "Type": "String"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated",
+          "Type": "String"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 240.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Lanicor, Boehringer Ingelheim",
+          "Type": "String"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted",
+          "Type": "String"
+        },
+        {
+          "Name": "Comment",
+          "Value": ".",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                "NaN",
+                0.001415098,
+                0.001768868,
+                0.001768866,
+                0.00127358607,
+                0.00134434493,
+                0.001061323,
+                0.0007783017,
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 780.93,
+            "LLOQ": 1E-10
+          },
+          "Values": [
+            5.00000024E-05,
+            0.0129481088,
+            0.01740566,
+            0.02073113,
+            0.0152830193,
+            0.0125235906,
+            0.0107547194,
+            0.007924528,
+            0.005872642,
+            0.00474056555,
+            0.00332547212,
+            0.00169811293,
+            0.001061321,
+            0.0008490566
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Greiner 1999 - iv with Perpetrator (Rifampicin) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          240.0,
+          240.17,
+          240.33,
+          240.5,
+          240.58,
+          240.67,
+          240.75,
+          241.0,
+          241.25,
+          241.5,
+          242.0,
+          243.0,
+          245.0,
+          247.0
         ],
         "Dimension": "Time",
         "Unit": "h"
