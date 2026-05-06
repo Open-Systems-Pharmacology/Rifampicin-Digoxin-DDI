@@ -10418,6 +10418,184 @@
     }
   ],
   "ObservedData": [
+        {
+          "Name": "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+          "ExtendedProperties": [
+            {
+              "Name": "DB Version",
+              "Value": "OSP DATABASE",
+              "Type": "String"
+            },
+            {
+              "Name": "ID",
+              "Value": 16321.0,
+              "Type": "Double"
+            },
+            {
+              "Name": "Study Id",
+              "Value": "Gurley 2006",
+              "Type": "String"
+            },
+            {
+              "Name": "Reference",
+              "Value": "https://pubmed.ncbi.nlm.nih.gov/16221754/",
+              "Type": "String"
+            },
+            {
+              "Name": "Source",
+              "Value": "Fig 1b",
+              "Type": "String"
+            },
+            {
+              "Name": "Grouping",
+              "Value": "day 1 plasma before Rifampicin",
+              "Type": "String"
+            },
+            {
+              "Name": "Data type",
+              "Value": "aggregated",
+              "Type": "String"
+            },
+            {
+              "Name": "N",
+              "Value": 16.0,
+              "Type": "Double"
+            },
+            {
+              "Name": "Molecule",
+              "Value": "Digoxin",
+              "Type": "String"
+            },
+            {
+              "Name": "Species",
+              "Value": "Human",
+              "Type": "String"
+            },
+            {
+              "Name": "Organ",
+              "Value": "Peripheral Venous Blood",
+              "Type": "String"
+            },
+            {
+              "Name": "Compartment",
+              "Value": "Plasma",
+              "Type": "String"
+            },
+            {
+              "Name": "Route",
+              "Value": "PO",
+              "Type": "String"
+            },
+            {
+              "Name": "Dose",
+              "Value": "0.4 mg",
+              "Type": "String"
+            },
+            {
+              "Name": "Times of Administration [h]",
+              "Value": 0.0,
+              "Type": "Double"
+            },
+            {
+              "Name": "Formulation",
+              "Value": ".",
+              "Type": "String"
+            },
+            {
+              "Name": "Food state",
+              "Value": "fasted",
+              "Type": "String"
+            },
+            {
+              "Name": "Comment",
+              "Value": ".",
+              "Type": "String"
+            }
+          ],
+          "Columns": [
+            {
+              "Name": "Avg",
+              "RelatedColumns": [
+                {
+                  "Name": "Var",
+                  "QuantityInfo": {
+                    "Path": "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+                  },
+                  "DataInfo": {
+                    "Origin": "ObservationAuxiliary",
+                    "AuxiliaryType": "ArithmeticStdDev",
+                    "MolWeight": 780.93
+                  },
+                  "Values": [
+                    7.57824E-06,
+                    1.190603E-08,
+                    0.0001138285,
+                    0.0002732334,
+                    0.000409868226,
+                    0.000318762817,
+                    0.0001442487,
+                    9.868383E-05,
+                    3.036058E-05,
+                    3.03606375E-05,
+                    3.79745979E-05
+                  ],
+                  "Dimension": "Concentration (mass)",
+                  "Unit": "mg/l"
+                }
+              ],
+              "QuantityInfo": {
+                "Path": "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+              },
+              "DataInfo": {
+                "Origin": "Observation",
+                "AuxiliaryType": "Undefined",
+                "MolWeight": 780.93,
+                "LLOQ": 1E-10
+              },
+              "Values": [
+                0.05,
+                0.1894441,
+                0.4322337,
+                2.063891,
+                2.230672,
+                2.989258,
+                2.502833,
+                1.659718,
+                0.9829192,
+                0.7615297,
+                0.5312871
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/l"
+            }
+          ],
+          "BaseGrid": {
+            "Name": "Time",
+            "QuantityInfo": {
+              "Path": "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)|Time",
+              "Type": "Time"
+            },
+            "DataInfo": {
+              "Origin": "BaseGrid",
+              "AuxiliaryType": "Undefined"
+            },
+            "Values": [
+              0.0,
+              0.25,
+              0.33,
+              0.5,
+              0.67,
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0,
+              6.0
+            ],
+            "Dimension": "Time",
+            "Unit": "h"
+          }
+        },
     {
       "Name": "Gurley 2007 - Digoxin + Rifampicin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
       "ExtendedProperties": [
