@@ -1939,13 +1939,6 @@
           "Value": 822.94,
           "Unit": "g/mol",
           "ValueOrigin": {}
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ]
     },
@@ -2159,13 +2152,6 @@
             "Source": "Internet",
             "Method": "InVitro",
             "Description": "Drugbank"
-          }
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
           }
         }
       ]
